@@ -11,17 +11,126 @@
 </head>
 
 <body>
-  <header class="header">
+  <header id="header" class="header">
+    <div id="navigations-mobile" class="container__navigations__mobile">
+      <div class="navigations__images-wrapper">
+        <img src="./assets/images/Logo-mobile.png" class="logo-mobile">
+        <img src="./assets/icons/close.png" alt="X" id="close" class="close">
+      </div>
+
+      <div id="dropdown1-mobile" class="dropdown-mobile">
+        <p id="text1-mobile">Servicios</p>
+        <img id="arrow1-mobile" src="./assets/icons/Arrow-Down-mobile.png">
+      </div>
+      <div id="items-dropdown1-mobile" class="items-dropdown-mobile hide">
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/01.png" alt="+">
+          <p class="text-item-mobile">Canales digitales y Growth Haking</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/02.png" alt="+">
+          <p class="text-item-mobile">E-commerce</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/03.png" alt="+">
+          <p class="text-item-mobile">Headhunting y Mentoring</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/04.png" alt="+">
+          <p class="text-item-mobile">Consultoría CRM</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/05.png" alt="+">
+          <p class="text-item-mobile">Analítica Digital e Inteligencia Artificial</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/06.png" alt="+">
+          <p class="text-item-mobile">Diseño de experiencia</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/07.png" alt="+">
+          <p class="text-item-mobile">Publicidad digital</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/08.png" alt="+">
+          <p class="text-item-mobile">Marketing Automation</p>
+        </div>
+      </div>
+
+      <div id="dropdown2-mobile" class="dropdown-mobile">
+        <p id="text2-mobile">Productos</p>
+        <img id="arrow2-mobile" src="./assets/icons/Arrow-Down-mobile.png">
+      </div>
+      <div id="items-dropdown2-mobile" class="items-dropdown-mobile hide">
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/09.png" alt="+">
+          <p class="text-item-mobile">Neo Digital Skills</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/10.png" alt="+">
+          <p class="text-item-mobile">Otros</p>
+        </div>
+      </div>
+
+      <div id="dropdown3-mobile" class="dropdown-mobile">
+        <p id="text3-mobile">Recursos</p>
+        <img id="arrow3-mobile" src="./assets/icons/Arrow-Down-mobile.png">
+      </div>
+      <div id="items-dropdown3-mobile" class="items-dropdown-mobile hide">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/11.png" alt="+">
+          <p class="text-item-mobile">Descargables</p>
+        </div>
+
+        <img src="./assets/icons/Line.png" class="line">
+
+        <div class="item-dropdown-mobile">
+          <img class="img-item-mobile" src="./assets/icons/12.png" alt="+">
+          <p class="text-item-mobile">Webinnars</p>
+        </div>
+      </div>
+
+      <a class="link-mobile" href="#">Casos de éxito</a>
+      <a class="link-mobile" href="#">Blog</a>
+    </div>
+
     <div class="header__container">
-      <img src="./assets/icons/burger.png" alt="menu" class="burger">
+      <img src="./assets/icons/burger.png" alt="menu" id="burger" class="burger">
       <img class="container__logo" src="./assets/images/logo.png">
+
+
       <div class="container__navigations">
 
         <div id="dropdown1" class="dropdown">
           <p id="text1">Servicios</p>
           <img id="arrow1" src="./assets/icons/Arrow-Down.png">
           <div id="items-dropdown1" class="items-dropdown hide">
-            <img class="poligon" src="./assets/icons/Polygon.png">
+            <img class="poligon" src="./assets/icons/Polygon2.png">
             <div class="item-dropdown">
               <img class="img-item" src="./assets/icons/01.png" alt="+">
               <p class="text-item">Canales digitales y Growth Haking</p>
@@ -61,7 +170,7 @@
           <p id="text2">Productos</p>
           <img id="arrow2" src="./assets/icons/Arrow-Down.png">
           <div id="items-dropdown2" class="items-dropdown hide">
-            <img class="poligon" src="./assets/icons/Polygon.png">
+            <img class="poligon" src="./assets/icons/Polygon2.png">
             <div class="item-dropdown">
               <img class="img-item" src="./assets/icons/09.png" alt="+">
               <p class="text-item">Neo Digital Skills</p>
@@ -77,7 +186,7 @@
           <p id="text3">Recursos</p>
           <img id="arrow3" src="./assets/icons/Arrow-Down.png">
           <div id="items-dropdown3" class="items-dropdown hide">
-            <img class="poligon" src="./assets/icons/Polygon.png">
+            <img class="poligon" src="./assets/icons/Polygon2.png">
             <div class="item-dropdown">
               <img class="img-item" src="./assets/icons/11.png" alt="+">
               <p class="text-item">Descargables</p>
@@ -97,7 +206,7 @@
     </div>
   </header>
 
-  <main class="main">
+  <main id="main" class="main">
     <section class="banner">
       <div class="banner-container">
 
@@ -148,7 +257,7 @@
       </div>
     </section>
 
-    <section class="catalog">
+    <section id="catalog" class="catalog">
       <div class="catalog-container">
         <h1 class="title-catalog">Contamos con soluciones en</h1>
         <div class="items-catalog">
@@ -302,7 +411,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="footer__container">
       <h1 class="title-container">Somos Partners</h1>
       <div class="items-container">
