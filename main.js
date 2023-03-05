@@ -34,6 +34,24 @@ const handleDwopdown1 = () => {
   $ITEMSDROPDOWN1.classList.toggle('show');
 }
 
+document.addEventListener('click', (e) => {
+  const clickOnDropdownArrow1 = e.composedPath().includes($DROPDOWNARROW1);
+  const clickOnDropdownText1 = e.composedPath().includes($DROPDOWNTEXT1);
+  const clickOnDropdownArrow2 = e.composedPath().includes($DROPDOWNARROW2);
+  const clickOnDropdownText2 = e.composedPath().includes($DROPDOWNTEXT2);
+  const clickOnDropdownArrow3 = e.composedPath().includes($DROPDOWNARROW3);
+  const clickOnDropdownText3 = e.composedPath().includes($DROPDOWNTEXT3);
+  if ( !clickOnDropdownArrow1 && !clickOnDropdownText1 ) {
+    $ITEMSDROPDOWN1.classList.remove('show');
+  }
+  if ( !clickOnDropdownArrow2 && !clickOnDropdownText2 ) {
+    $ITEMSDROPDOWN2.classList.remove('show');
+  }
+  if ( !clickOnDropdownArrow3 && !clickOnDropdownText3 ) {
+    $ITEMSDROPDOWN3.classList.remove('show');
+  }
+})
+
 const handleDwopdown2 = () => {
   $ITEMSDROPDOWN2.classList.toggle('show');
 }
@@ -92,3 +110,4 @@ $(document).ready(() => {
     slidesToShow: 1,
   });
 });
+
