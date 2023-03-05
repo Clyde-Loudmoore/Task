@@ -96,3 +96,11 @@ $CLOSEBUTTON.addEventListener('click', () => {
   $MAINSECTION.style.display = 'block';
   $FOOTER.style.display = 'block';
 });
+
+$(document).ready(() => {
+  $('.slider').slick({
+    arrows: true,
+    dots: true,
+    slidesToShow: 1,
+  });
+});
