@@ -66,12 +66,19 @@ body {
   top: 40px;
 }
 
+.items-dropdown-mobile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 .hide {
   display: none;
 }
 
 .show {
   display: flex;
+  z-index: 10;
 }
 
 
@@ -657,18 +664,14 @@ body {
     text-decoration: none;
   }
 
-  .items-dropdown-mobile {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    display: none;
-  }
+ 
 
   .item-dropdown-mobile {
     padding: 8px 16px;
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: pointer;
   }
 
   .item-dropdown-mobile:hover {

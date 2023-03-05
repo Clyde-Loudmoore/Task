@@ -43,27 +43,15 @@ const handleDwopdown3 = () => {
 }
 
 const handleDwopdownMobile1 = () => {
-  if ($ITEMSDROPDOWNMOBILE1.style.display === 'none') {
-    $ITEMSDROPDOWNMOBILE1.style.display = 'flex';
-  } else {
-    $ITEMSDROPDOWNMOBILE1.style.display = 'none';
-  }
+  $ITEMSDROPDOWNMOBILE1.classList.toggle('show');
 }
 
 const handleDwopdownMobile2 = () => {
-  if ($ITEMSDROPDOWNMOBILE2.style.display === 'none') {
-    $ITEMSDROPDOWNMOBILE2.style.display = 'flex';
-  } else {
-    $ITEMSDROPDOWNMOBILE2.style.display = 'none';
-  }
+  $ITEMSDROPDOWNMOBILE2.classList.toggle('show');
 }
 
 const handleDwopdownMobile3 = () => {
-  if ($ITEMSDROPDOWNMOBILE3.style.display === 'none') {
-    $ITEMSDROPDOWNMOBILE3.style.display = 'flex';
-  } else {
-    $ITEMSDROPDOWNMOBILE3.style.display = 'none';
-  }
+  $ITEMSDROPDOWNMOBILE3.classList.toggle('show');
 }
 
 $DROPDOWNARROW1.addEventListener('click', handleDwopdown1);
